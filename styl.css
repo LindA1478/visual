@@ -69,3 +69,14 @@ h1{
     transition: background-color 1s; 
     
     } 
+    .menu{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: aqua;
+        border: 20px solid rgb(0, 255, 195);;
+    }
+.menu h4{
+    color: saddlebrown;
+    font-size: medium;
+    text-decoration: none;
+}
