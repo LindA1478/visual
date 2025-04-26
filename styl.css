@@ -1,0 +1,71 @@
+.nadpis{
+    background-image: url(https://cdn.ochutnejorech.cz/cdn-cgi/image/w=640,f=auto,q=85/images/cliygmtcn000bsn01lu210jas/cukrovinky-zele-kategorie.png);
+    background-repeat: repeat;
+    background-size: contain;
+    height:50px;
+}
+h1{
+    text-align: center;
+    font-size: 50px
+}
+.conteiner{
+    display:grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    gap: 1em;
+    margin: 1em;
+    min-height: 20em;
+}
+.card{ 
+    background-color: blueviolet;
+    min-width: 5em;
+ }
+.first{
+    display: grid;
+    grid-template-rows:  1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 0,5em;
+    padding: 0,5em;
+ }
+.first img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    border-radius: 1em;
+ }
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    padding: 0,5em;
+    gap: 0,5em;;
+}
+.third{
+    padding: 1em;
+}
+@media (max-width: 1000px) {
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+}
+ol{
+    color: rgb(255, 255, 255);
+}
+h1{ 
+
+    background-color: blue; 
+    
+    transition: background-color 1s; 
+    
+    } 
+    
+    h1:hover{ 
+    
+    background-color: hotpink; 
+    
+    transition: background-color 1s; 
+    
+    } 
